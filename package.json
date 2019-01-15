@@ -1,0 +1,15 @@
+{
+  "name": "ocr-rewrite-base",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winify-ag/ocr-rewrite-base.git"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ocr rewrite base</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body {
+      margin: 0;
+      background-color: #f8f9fa;
+    }
+
+    body, html {
+      height: 100%;
+    }
+
+    .iframe-wrapper {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #f8f9fa;
+      -webkit-overflow-scrolling: touch;
+      overflow-y: auto;
+    }
+
+    .iframe-wrapper iframe {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-wrapper">
+    <iframe src="https://ocr-rewrite-iframe.firebaseapp.com" frameborder="0" allow="camera"></iframe>
+  </div>
+</body>
+</html>
